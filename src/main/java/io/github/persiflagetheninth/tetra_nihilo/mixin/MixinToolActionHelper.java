@@ -13,7 +13,7 @@ import se.mickelus.tetra.util.ToolActionHelper;
 
 @Mixin(ToolActionHelper.class)
 public abstract class MixinToolActionHelper {
-    @Inject(method="isEffectiveOn(Lnet/minecraftforge/common/ToolAction;Lnet/minecraft/world/level/block/state/BlockState;)Z", at = @At("RETURN"), cancellable = true, remap = false)
+    @Inject(method = "isEffectiveOn(Lnet/minecraftforge/common/ToolAction;Lnet/minecraft/world/level/block/state/BlockState;)Z", at = @At("RETURN"), cancellable = true, remap = false)
     private static void onIsEffectiveOn(ToolAction action, BlockState state, CallbackInfoReturnable<Boolean> cir) {
         if (!cir.getReturnValue()) {
             if (action == TetraToolActions.hammer && NihiloToolCompat.canHammer(state)) {

@@ -53,9 +53,11 @@ public class NihiloToolCompat {
         return false;
     }
 
-    public static ObjectArrayList<ItemStack> getCrookDrops(Level level, BlockState state, RandomSource random) {
+    public static ObjectArrayList<ItemStack> getCrookDrops(ObjectArrayList<ItemStack> generatedLoot, Level level, BlockState state, RandomSource random) {
         if (isLoaded("exnihilosequentia")) {
-            return NihiloToolCompat.NihiloHelper.crookDrops(level, state.getBlock(), random);
+            ObjectArrayList<ItemStack> newLoot = NihiloToolCompat.NihiloHelper.crookDrops(level, state.getBlock(), random);
+            generatedLoot.addAll(newLoot);
+            return generatedLoot;
         } else if (isLoaded("ftbsba")) {
             return NihiloToolCompat.FTBHelper.crookDrops(level, new ItemStack(state.getBlock()), random);
         }

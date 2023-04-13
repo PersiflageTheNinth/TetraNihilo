@@ -24,9 +24,11 @@ import java.util.function.Supplier;
 public class HammerLoot extends LootModifier {
     public static final Supplier<Codec<HammerLoot>> CODEC = Suppliers.memoize(() ->
             RecordCodecBuilder.create(instance -> codecStart(instance).apply(instance, HammerLoot::new)));
+
     public HammerLoot(LootItemCondition[] conditionsIn) {
         super(conditionsIn);
     }
+
     @Override
     protected @NotNull ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
         TetraNihilo.LOGGER.debug("Fired Hammer Modifier");

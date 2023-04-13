@@ -24,9 +24,11 @@ import java.util.function.Supplier;
 public class CrookLoot extends LootModifier {
     public static final Supplier<Codec<CrookLoot>> CODEC = Suppliers.memoize(() ->
             RecordCodecBuilder.create(instance -> codecStart(instance).apply(instance, CrookLoot::new)));
+
     public CrookLoot(LootItemCondition[] conditionsIn) {
         super(conditionsIn);
     }
+
     @Override
     protected @NotNull ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
         TetraNihilo.LOGGER.debug("Fired Crook Modifier");
@@ -37,7 +39,7 @@ public class CrookLoot extends LootModifier {
                 && tool.getItem() instanceof ItemModularHandheld
                 && tool.canPerformAction(TetraNihiloToolActions.crook)
                 && NihiloToolCompat.canCrook(blockState)) {
-            ObjectArrayList<ItemStack> changedLoot = NihiloToolCompat.getCrookDrops(entity.level, blockState, context.getRandom());
+            ObjectArrayList<ItemStack> changedLoot = NihiloToolCompat.getCrookDrops(generatedLoot, entity.level, blockState, context.getRandom());
             if (!changedLoot.isEmpty()) {
                 return changedLoot;
             }
