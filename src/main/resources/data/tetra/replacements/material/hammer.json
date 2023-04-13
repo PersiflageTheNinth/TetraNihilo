@@ -1,0 +1,139 @@
+[
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ftbsba"
+      }
+    ],
+    "predicate": {
+      "items": [ "ftbsba:stone_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/stone"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/stone"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stone_rod"
+      ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ftbsba"
+      }
+    ],
+    "predicate": {
+      "items": [ "ftbsba:iron_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/iron"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/iron"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stone_rod"
+      ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ftbsba"
+      }
+    ],
+    "predicate": {
+      "items": [ "ftbsba:gold_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/gold"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/gold"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stone_rod"
+      ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ftbsba"
+      }
+    ],
+    "predicate": {
+      "items": [ "ftbsba:diamond_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/diamond"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/diamond"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stone_rod"
+      ]
+    },
+    "improvements": {
+      "double/head_left:arrested": 0,
+      "double/head_right:arrested": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ftbsba"
+      }
+    ],
+    "predicate": {
+      "items": [ "ftbsba:netherite_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/netherite"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/netherite"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stone_rod"
+      ]
+    },
+    "improvements": {
+      "single/handle:basic_handle/soot": 0
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "io.github.persiflagetheninth.tetra_nihilo.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "tetra_nihilo.refmap.json",
+  "mixins": [
+    "MixinToolActionHelper"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}

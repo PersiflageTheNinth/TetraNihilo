@@ -1,0 +1,26 @@
+{
+  "key": "stone_rod",
+  "category": "misc",
+  "primary": 1,
+  "secondary": 2.2,
+  "tertiary": 0,
+  "durability": 20,
+  "integrityCost": 1,
+  "integrityGain": 3,
+  "magicCapacity": 90,
+  "toolLevel": 0,
+  "toolEfficiency": 0,
+  "tints": {
+    "glyph": "stone_glyph",
+    "texture": "stone"
+  },
+  "textures": [
+    "crude",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "ftbsba:stone_rod"
+    ]
+  }
+}
