@@ -2,6 +2,7 @@ package io.github.persiflagetheninth.tetra_nihilo.registry;
 
 import com.mojang.serialization.Codec;
 import io.github.persiflagetheninth.tetra_nihilo.TetraNihilo;
+import io.github.persiflagetheninth.tetra_nihilo.loot.CrookLoot;
 import io.github.persiflagetheninth.tetra_nihilo.loot.HammerLoot;
 import net.minecraftforge.common.loot.IGlobalLootModifier;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,4 +14,5 @@ public class TetraNihiloLootModifiers {
             DeferredRegister.create(ForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS, TetraNihilo.MODID);
 
     public static final RegistryObject<Codec<HammerLoot>> HAMMER = LOOT_MODIFIERS.register("from_hammer", HammerLoot.CODEC);
+    public static final RegistryObject<Codec<CrookLoot>> CROOK = LOOT_MODIFIERS.register("from_crook", CrookLoot.CODEC);
 }

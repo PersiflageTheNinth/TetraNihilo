@@ -1,0 +1,13 @@
+{
+  "type": "tetra_nihilo:from_crook",
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "items": [
+          "tetra:modular_single"
+        ]
+      }
+    }
+  ]
+}

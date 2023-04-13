@@ -1,6 +1,7 @@
 {
   "replace": false,
   "entries": [
-    "tetra_nihilo:from_hammer"
+    "tetra_nihilo:from_hammer",
+    "tetra_nihilo:from_crook"
   ]
 }
