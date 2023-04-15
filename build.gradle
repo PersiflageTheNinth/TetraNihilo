@@ -151,7 +151,7 @@ dependencies {
     // Tetra for 1.19.2 not on maven yet?
     implementation fg.deobf("curse.maven:tetra-289712:${tetra_file}")
     implementation fg.deobf("novamachina.exnihilosequentia:ExNihiloSequentia:${exnihilo_version}")
-    implementation fg.deobf("dev.ftb.mods:ftb-skyblock-addons:${ftbsa_version}")
+    implementation fg.deobf("dev.ftb.mods:ftb-skyblock-addons:${ftbsba_version}")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
