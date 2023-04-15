@@ -73,6 +73,6 @@ side="BOTH"
 [[dependencies.tetra_nihilo]]
 modId="exnihilosequentia"
 mandatory=false
-versionRange="[4.1.0,)"
+versionRange="[1.19.2-4.1.0,)"
 ordering="AFTER"
 side="BOTH"

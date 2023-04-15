@@ -1,0 +1,363 @@
+[
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "exnihilosequentia"
+      }
+    ],
+    "predicate": {
+      "items": [
+        "exnihilosequentia:basalt_hammer",
+        "exnihilosequentia:calcite_hammer",
+        "exnihilosequentia:deepslate_hammer",
+        "exnihilosequentia:dripstone_hammer",
+        "exnihilosequentia:nether_brick_hammer",
+        "exnihilosequentia:prismarine_hammer",
+        "exnihilosequentia:red_nether_brick_hammer",
+        "exnihilosequentia:stone_hammer",
+        "exnihilosequentia:terracotta_hammer",
+        "exnihilosequentia:tuff_hammer"
+      ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/stone"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/stone"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "exnihilosequentia"
+      }
+    ],
+    "predicate": {
+      "items": [ "exnihilosequentia:copper_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/copper"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/copper"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "exnihilosequentia"
+      }
+    ],
+    "predicate": {
+      "items": [ "exnihilosequentia:iron_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/iron"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/iron"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "exnihilosequentia"
+      }
+    ],
+    "predicate": {
+      "items": [ "exnihilosequentia:golden_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/gold"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/gold"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "exnihilosequentia"
+      }
+    ],
+    "predicate": {
+      "items": [ "exnihilosequentia:diamond_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/diamond"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/diamond"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    },
+    "improvements": {
+      "double/head_left:arrested": 0,
+      "double/head_right:arrested": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "exnihilosequentia"
+      }
+    ],
+    "predicate": {
+      "items": [ "exnihilosequentia:wooden_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/oak"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/oak"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    },
+    "improvements": {
+      "double/head_left:arrested": 0,
+      "double/head_right:arrested": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "exnihilosequentia"
+      }
+    ],
+    "predicate": {
+      "items": [ "exnihilosequentia:warped_fungus_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/warped"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/warped"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    },
+    "improvements": {
+      "double/head_left:arrested": 0,
+      "double/head_right:arrested": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "exnihilosequentia"
+      }
+    ],
+    "predicate": {
+      "items": [ "exnihilosequentia:crimson_fungus_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/crimson"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/crimson"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    },
+    "improvements": {
+      "double/head_left:arrested": 0,
+      "double/head_right:arrested": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "exnihilosequentia"
+      }
+    ],
+    "predicate": {
+      "items": [ "exnihilosequentia:blackstone_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/blackstone"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/blackstone"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    },
+    "improvements": {
+      "double/head_left:arrested": 0,
+      "double/head_right:arrested": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "exnihilosequentia"
+      }
+    ],
+    "predicate": {
+      "items": [ "exnihilosequentia:diorite_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/diorite"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/diorite"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    },
+    "improvements": {
+      "double/head_left:arrested": 0,
+      "double/head_right:arrested": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "exnihilosequentia"
+      }
+    ],
+    "predicate": {
+      "items": [ "exnihilosequentia:granite_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/granite"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/granite"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    },
+    "improvements": {
+      "double/head_left:arrested": 0,
+      "double/head_right:arrested": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "exnihilosequentia"
+      }
+    ],
+    "predicate": {
+      "items": [ "exnihilosequentia:andesite_hammer" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [
+        "double/basic_hammer_left",
+        "basic_hammer/andesite"
+      ],
+      "double/head_right": [
+        "double/basic_hammer_right",
+        "basic_hammer/andesite"
+      ],
+      "double/handle": [
+        "double/basic_handle",
+        "basic_handle/stick"
+      ]
+    },
+    "improvements": {
+      "double/head_left:arrested": 0,
+      "double/head_right:arrested": 0
+    }
+  }
+]
+
+
+
+
+
+
